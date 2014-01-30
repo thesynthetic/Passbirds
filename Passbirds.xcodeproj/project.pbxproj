@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70987C731899E7A000D9527C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C721899E7A000D9527C /* Foundation.framework */; };
+		70987C751899E7A000D9527C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C741899E7A000D9527C /* CoreGraphics.framework */; };
+		70987C771899E7A000D9527C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C761899E7A000D9527C /* UIKit.framework */; };
+		70987C7D1899E7A000D9527C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70987C7B1899E7A000D9527C /* InfoPlist.strings */; };
+		70987C7F1899E7A000D9527C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987C7E1899E7A000D9527C /* main.m */; };
+		70987C831899E7A000D9527C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987C821899E7A000D9527C /* AppDelegate.m */; };
+		70987C861899E7A000D9527C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70987C841899E7A000D9527C /* Main_iPhone.storyboard */; };
+		70987C891899E7A000D9527C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70987C871899E7A000D9527C /* Main_iPad.storyboard */; };
+		70987C8C1899E7A000D9527C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987C8B1899E7A000D9527C /* ViewController.m */; };
+		70987C8E1899E7A000D9527C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70987C8D1899E7A000D9527C /* Images.xcassets */; };
+		70987C951899E7A000D9527C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C941899E7A000D9527C /* XCTest.framework */; };
+		70987C961899E7A000D9527C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C721899E7A000D9527C /* Foundation.framework */; };
+		70987C971899E7A000D9527C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C761899E7A000D9527C /* UIKit.framework */; };
+		70987C9F1899E7A000D9527C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70987C9D1899E7A000D9527C /* InfoPlist.strings */; };
+		70987CA11899E7A000D9527C /* PassbirdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987CA01899E7A000D9527C /* PassbirdsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70987C981899E7A000D9527C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70987C671899E7A000D9527C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70987C6E1899E7A000D9527C;
+			remoteInfo = Passbirds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70987C6F1899E7A000D9527C /* Passbirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passbirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70987C721899E7A000D9527C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70987C741899E7A000D9527C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70987C761899E7A000D9527C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70987C7A1899E7A000D9527C /* Passbirds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passbirds-Info.plist"; sourceTree = "<group>"; };
+		70987C7C1899E7A000D9527C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70987C7E1899E7A000D9527C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70987C801899E7A000D9527C /* Passbirds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passbirds-Prefix.pch"; sourceTree = "<group>"; };
+		70987C811899E7A000D9527C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70987C821899E7A000D9527C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70987C851899E7A000D9527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		70987C881899E7A000D9527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		70987C8A1899E7A000D9527C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70987C8B1899E7A000D9527C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70987C8D1899E7A000D9527C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70987C931899E7A000D9527C /* PassbirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassbirdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70987C941899E7A000D9527C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70987C9C1899E7A000D9527C /* PassbirdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassbirdsTests-Info.plist"; sourceTree = "<group>"; };
+		70987C9E1899E7A000D9527C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70987CA01899E7A000D9527C /* PassbirdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassbirdsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70987C6C1899E7A000D9527C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987C751899E7A000D9527C /* CoreGraphics.framework in Frameworks */,
+				70987C771899E7A000D9527C /* UIKit.framework in Frameworks */,
+				70987C731899E7A000D9527C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70987C901899E7A000D9527C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987C951899E7A000D9527C /* XCTest.framework in Frameworks */,
+				70987C971899E7A000D9527C /* UIKit.framework in Frameworks */,
+				70987C961899E7A000D9527C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70987C661899E7A000D9527C = {
+			isa = PBXGroup;
+			children = (
+				70987C781899E7A000D9527C /* Passbirds */,
+				70987C9A1899E7A000D9527C /* PassbirdsTests */,
+				70987C711899E7A000D9527C /* Frameworks */,
+				70987C701899E7A000D9527C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70987C701899E7A000D9527C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70987C6F1899E7A000D9527C /* Passbirds.app */,
+				70987C931899E7A000D9527C /* PassbirdsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70987C711899E7A000D9527C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70987C721899E7A000D9527C /* Foundation.framework */,
+				70987C741899E7A000D9527C /* CoreGraphics.framework */,
+				70987C761899E7A000D9527C /* UIKit.framework */,
+				70987C941899E7A000D9527C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70987C781899E7A000D9527C /* Passbirds */ = {
+			isa = PBXGroup;
+			children = (
+				70987C811899E7A000D9527C /* AppDelegate.h */,
+				70987C821899E7A000D9527C /* AppDelegate.m */,
+				70987C841899E7A000D9527C /* Main_iPhone.storyboard */,
+				70987C871899E7A000D9527C /* Main_iPad.storyboard */,
+				70987C8A1899E7A000D9527C /* ViewController.h */,
+				70987C8B1899E7A000D9527C /* ViewController.m */,
+				70987C8D1899E7A000D9527C /* Images.xcassets */,
+				70987C791899E7A000D9527C /* Supporting Files */,
+			);
+			path = Passbirds;
+			sourceTree = "<group>";
+		};
+		70987C791899E7A000D9527C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70987C7A1899E7A000D9527C /* Passbirds-Info.plist */,
+				70987C7B1899E7A000D9527C /* InfoPlist.strings */,
+				70987C7E1899E7A000D9527C /* main.m */,
+				70987C801899E7A000D9527C /* Passbirds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70987C9A1899E7A000D9527C /* PassbirdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				70987CA01899E7A000D9527C /* PassbirdsTests.m */,
+				70987C9B1899E7A000D9527C /* Supporting Files */,
+			);
+			path = PassbirdsTests;
+			sourceTree = "<group>";
+		};
+		70987C9B1899E7A000D9527C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70987C9C1899E7A000D9527C /* PassbirdsTests-Info.plist */,
+				70987C9D1899E7A000D9527C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70987C6E1899E7A000D9527C /* Passbirds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70987CA41899E7A000D9527C /* Build configuration list for PBXNativeTarget "Passbirds" */;
+			buildPhases = (
+				70987C6B1899E7A000D9527C /* Sources */,
+				70987C6C1899E7A000D9527C /* Frameworks */,
+				70987C6D1899E7A000D9527C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passbirds;
+			productName = Passbirds;
+			productReference = 70987C6F1899E7A000D9527C /* Passbirds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70987C921899E7A000D9527C /* PassbirdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70987CA71899E7A000D9527C /* Build configuration list for PBXNativeTarget "PassbirdsTests" */;
+			buildPhases = (
+				70987C8F1899E7A000D9527C /* Sources */,
+				70987C901899E7A000D9527C /* Frameworks */,
+				70987C911899E7A000D9527C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70987C991899E7A000D9527C /* PBXTargetDependency */,
+			);
+			name = PassbirdsTests;
+			productName = PassbirdsTests;
+			productReference = 70987C931899E7A000D9527C /* PassbirdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70987C671899E7A000D9527C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ryan Hittner";
+				TargetAttributes = {
+					70987C921899E7A000D9527C = {
+						TestTargetID = 70987C6E1899E7A000D9527C;
+					};
+				};
+			};
+			buildConfigurationList = 70987C6A1899E7A000D9527C /* Build configuration list for PBXProject "Passbirds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70987C661899E7A000D9527C;
+			productRefGroup = 70987C701899E7A000D9527C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70987C6E1899E7A000D9527C /* Passbirds */,
+				70987C921899E7A000D9527C /* PassbirdsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70987C6D1899E7A000D9527C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987C891899E7A000D9527C /* Main_iPad.storyboard in Resources */,
+				70987C8E1899E7A000D9527C /* Images.xcassets in Resources */,
+				70987C861899E7A000D9527C /* Main_iPhone.storyboard in Resources */,
+				70987C7D1899E7A000D9527C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70987C911899E7A000D9527C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987C9F1899E7A000D9527C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70987C6B1899E7A000D9527C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987C8C1899E7A000D9527C /* ViewController.m in Sources */,
+				70987C831899E7A000D9527C /* AppDelegate.m in Sources */,
+				70987C7F1899E7A000D9527C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70987C8F1899E7A000D9527C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70987CA11899E7A000D9527C /* PassbirdsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70987C991899E7A000D9527C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70987C6E1899E7A000D9527C /* Passbirds */;
+			targetProxy = 70987C981899E7A000D9527C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70987C7B1899E7A000D9527C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70987C7C1899E7A000D9527C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70987C841899E7A000D9527C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70987C851899E7A000D9527C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		70987C871899E7A000D9527C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70987C881899E7A000D9527C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		70987C9D1899E7A000D9527C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70987C9E1899E7A000D9527C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70987CA21899E7A000D9527C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70987CA31899E7A000D9527C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70987CA51899E7A000D9527C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
+				INFOPLIST_FILE = "Passbirds/Passbirds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70987CA61899E7A000D9527C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
+				INFOPLIST_FILE = "Passbirds/Passbirds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70987CA81899E7A000D9527C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passbirds.app/Passbirds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PassbirdsTests/PassbirdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70987CA91899E7A000D9527C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passbirds.app/Passbirds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
+				INFOPLIST_FILE = "PassbirdsTests/PassbirdsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70987C6A1899E7A000D9527C /* Build configuration list for PBXProject "Passbirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70987CA21899E7A000D9527C /* Debug */,
+				70987CA31899E7A000D9527C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70987CA41899E7A000D9527C /* Build configuration list for PBXNativeTarget "Passbirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70987CA51899E7A000D9527C /* Debug */,
+				70987CA61899E7A000D9527C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70987CA71899E7A000D9527C /* Build configuration list for PBXNativeTarget "PassbirdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70987CA81899E7A000D9527C /* Debug */,
+				70987CA91899E7A000D9527C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70987C671899E7A000D9527C /* Project object */;
+}
