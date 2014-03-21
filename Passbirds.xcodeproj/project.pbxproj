@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7005C781189D237100186DB1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7005C77F189D237100186DB1 /* Model.xcdatamodeld */; };
+		70255E2618D611020014E9EF /* AddPassbirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70255E2518D611020014E9EF /* AddPassbirdTableViewController.m */; };
+		7030E0A618D440DC0078B485 /* WebsiteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7030E0A518D440DC0078B485 /* WebsiteTableViewCell.m */; };
 		70987C731899E7A000D9527C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C721899E7A000D9527C /* Foundation.framework */; };
 		70987C751899E7A000D9527C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C741899E7A000D9527C /* CoreGraphics.framework */; };
 		70987C771899E7A000D9527C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C761899E7A000D9527C /* UIKit.framework */; };
@@ -22,6 +25,11 @@
 		70987C971899E7A000D9527C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70987C761899E7A000D9527C /* UIKit.framework */; };
 		70987C9F1899E7A000D9527C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70987C9D1899E7A000D9527C /* InfoPlist.strings */; };
 		70987CA11899E7A000D9527C /* PassbirdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987CA01899E7A000D9527C /* PassbirdsTests.m */; };
+		70C2432D189EE881007945D1 /* Website.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2432C189EE881007945D1 /* Website.m */; };
+		70C24330189EE882007945D1 /* PassbirdElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2432F189EE882007945D1 /* PassbirdElement.m */; };
+		70C24333189EE93B007945D1 /* Website+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C24332189EE93B007945D1 /* Website+Category.m */; };
+		70C24336189EF293007945D1 /* WebsiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C24335189EF293007945D1 /* WebsiteTableViewController.m */; };
+		70C2433B18A087A0007945D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C2433A18A087A0007945D1 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7005C780189D237100186DB1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		70255E2418D611020014E9EF /* AddPassbirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPassbirdTableViewController.h; sourceTree = "<group>"; };
+		70255E2518D611020014E9EF /* AddPassbirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPassbirdTableViewController.m; sourceTree = "<group>"; };
+		7030E0A418D440DC0078B485 /* WebsiteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteTableViewCell.h; sourceTree = "<group>"; };
+		7030E0A518D440DC0078B485 /* WebsiteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteTableViewCell.m; sourceTree = "<group>"; };
 		70987C6F1899E7A000D9527C /* Passbirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passbirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70987C721899E7A000D9527C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70987C741899E7A000D9527C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +68,15 @@
 		70987C9C1899E7A000D9527C /* PassbirdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassbirdsTests-Info.plist"; sourceTree = "<group>"; };
 		70987C9E1899E7A000D9527C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70987CA01899E7A000D9527C /* PassbirdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassbirdsTests.m; sourceTree = "<group>"; };
+		70C2432B189EE881007945D1 /* Website.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Website.h; sourceTree = "<group>"; };
+		70C2432C189EE881007945D1 /* Website.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Website.m; sourceTree = "<group>"; };
+		70C2432E189EE882007945D1 /* PassbirdElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbirdElement.h; sourceTree = "<group>"; };
+		70C2432F189EE882007945D1 /* PassbirdElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbirdElement.m; sourceTree = "<group>"; };
+		70C24331189EE93B007945D1 /* Website+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Website+Category.h"; sourceTree = "<group>"; };
+		70C24332189EE93B007945D1 /* Website+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Website+Category.m"; sourceTree = "<group>"; };
+		70C24334189EF293007945D1 /* WebsiteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteTableViewController.h; sourceTree = "<group>"; };
+		70C24335189EF293007945D1 /* WebsiteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteTableViewController.m; sourceTree = "<group>"; };
+		70C2433A18A087A0007945D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C2433B18A087A0007945D1 /* CoreData.framework in Frameworks */,
 				70987C751899E7A000D9527C /* CoreGraphics.framework in Frameworks */,
 				70987C771899E7A000D9527C /* UIKit.framework in Frameworks */,
 				70987C731899E7A000D9527C /* Foundation.framework in Frameworks */,
@@ -81,6 +104,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702C042E18D59C7A00CC64E5 /* WebsiteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70C24334189EF293007945D1 /* WebsiteTableViewController.h */,
+				70C24335189EF293007945D1 /* WebsiteTableViewController.m */,
+				7030E0A418D440DC0078B485 /* WebsiteTableViewCell.h */,
+				7030E0A518D440DC0078B485 /* WebsiteTableViewCell.m */,
+			);
+			name = WebsiteViewController;
+			sourceTree = "<group>";
+		};
+		702C042F18D59C8A00CC64E5 /* PassbirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PassbirdViewController;
+			sourceTree = "<group>";
+		};
+		702C043318D60D6400CC64E5 /* Add Passbird */ = {
+			isa = PBXGroup;
+			children = (
+				70255E2418D611020014E9EF /* AddPassbirdTableViewController.h */,
+				70255E2518D611020014E9EF /* AddPassbirdTableViewController.m */,
+			);
+			name = "Add Passbird";
+			sourceTree = "<group>";
+		};
+		702C043418D60DB800CC64E5 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7005C77F189D237100186DB1 /* Model.xcdatamodeld */,
+				70C2432E189EE882007945D1 /* PassbirdElement.h */,
+				70C2432F189EE882007945D1 /* PassbirdElement.m */,
+				70C2432B189EE881007945D1 /* Website.h */,
+				70C2432C189EE881007945D1 /* Website.m */,
+				70C24331189EE93B007945D1 /* Website+Category.h */,
+				70C24332189EE93B007945D1 /* Website+Category.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		70987C661899E7A000D9527C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +167,7 @@
 		70987C711899E7A000D9527C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70C2433A18A087A0007945D1 /* CoreData.framework */,
 				70987C721899E7A000D9527C /* Foundation.framework */,
 				70987C741899E7A000D9527C /* CoreGraphics.framework */,
 				70987C761899E7A000D9527C /* UIKit.framework */,
@@ -118,6 +183,10 @@
 				70987C821899E7A000D9527C /* AppDelegate.m */,
 				70987C841899E7A000D9527C /* Main_iPhone.storyboard */,
 				70987C871899E7A000D9527C /* Main_iPad.storyboard */,
+				702C043418D60DB800CC64E5 /* Core Data */,
+				702C043318D60D6400CC64E5 /* Add Passbird */,
+				702C042F18D59C8A00CC64E5 /* PassbirdViewController */,
+				702C042E18D59C7A00CC64E5 /* WebsiteViewController */,
 				70987C8A1899E7A000D9527C /* ViewController.h */,
 				70987C8B1899E7A000D9527C /* ViewController.m */,
 				70987C8D1899E7A000D9527C /* Images.xcassets */,
@@ -199,7 +268,7 @@
 		70987C671899E7A000D9527C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ryan Hittner";
 				TargetAttributes = {
 					70987C921899E7A000D9527C = {
@@ -254,8 +323,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				70987C8C1899E7A000D9527C /* ViewController.m in Sources */,
+				70C24336189EF293007945D1 /* WebsiteTableViewController.m in Sources */,
+				70255E2618D611020014E9EF /* AddPassbirdTableViewController.m in Sources */,
 				70987C831899E7A000D9527C /* AppDelegate.m in Sources */,
 				70987C7F1899E7A000D9527C /* main.m in Sources */,
+				7030E0A618D440DC0078B485 /* WebsiteTableViewCell.m in Sources */,
+				70C24333189EE93B007945D1 /* Website+Category.m in Sources */,
+				70C2432D189EE881007945D1 /* Website.m in Sources */,
+				70C24330189EE882007945D1 /* PassbirdElement.m in Sources */,
+				7005C781189D237100186DB1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +393,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -330,6 +405,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Hittner (6PG69L5945)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -348,6 +424,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C979B06F-2F28-4EC5-B22D-DA9AAE7371A4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -357,7 +434,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -370,6 +446,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Hittner (6PG69L5945)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -381,6 +458,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "C979B06F-2F28-4EC5-B22D-DA9AAE7371A4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -392,10 +470,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Hittner (6PG69L5945)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
 				INFOPLIST_FILE = "Passbirds/Passbirds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C979B06F-2F28-4EC5-B22D-DA9AAE7371A4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +486,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Hittner (6PG69L5945)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passbirds/Passbirds-Prefix.pch";
 				INFOPLIST_FILE = "Passbirds/Passbirds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C979B06F-2F28-4EC5-B22D-DA9AAE7371A4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,7 +500,6 @@
 		70987CA81899E7A000D9527C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passbirds.app/Passbirds";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -439,7 +522,6 @@
 		70987CA91899E7A000D9527C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passbirds.app/Passbirds";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -474,6 +556,7 @@
 				70987CA61899E7A000D9527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70987CA71899E7A000D9527C /* Build configuration list for PBXNativeTarget "PassbirdsTests" */ = {
 			isa = XCConfigurationList;
@@ -482,8 +565,22 @@
 				70987CA91899E7A000D9527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7005C77F189D237100186DB1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7005C780189D237100186DB1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 7005C780189D237100186DB1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 70987C671899E7A000D9527C /* Project object */;
 }

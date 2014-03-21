@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PassbirdElement" representedClassName="PassbirdElement" syncable="YES">
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isImage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="numberForOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="forWebsite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Website" inverseName="passbirdElements" inverseEntity="Website" syncable="YES"/>
+    </entity>
+    <entity name="PreloadedWebsite" syncable="YES">
+        <attribute name="websiteImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="websiteName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="websiteURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Website" representedClassName="Website" syncable="YES">
+        <attribute name="frequency" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="websiteImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="websiteName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="websiteURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="passbirdElements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PassbirdElement" inverseName="forWebsite" inverseEntity="PassbirdElement" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PassbirdElement" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Website" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PreloadedWebsite" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
